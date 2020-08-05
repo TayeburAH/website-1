@@ -1,0 +1,128 @@
+body{
+   font-size: 16px;
+   background-color:white ;
+   font-family: 'Lato', sans-serif;
+
+}
+
+img[alt='logo']{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%
+}
+
+ul li{
+margin: 10px 10px;
+}
+
+nav ul li{
+  border-bottom: 1px solid black;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 1.2rem;
+  color: white;
+}
+
+
+.navbar-text{
+font-size: 1.8rem;
+}
+
+div.dropdown-menu{
+
+border: 1px solid;
+margin-left: -300px;
+}
+
+.dropdown-menu a{
+  font-size: .85rem;
+
+}
+
+.container-box{
+  background-color:rgb(201, 204, 204 );
+  margin: 1% 1% 1% 1%;
+  width: 98%;
+  height: auto;
+  border-radius: 1%;
+  padding: 5px;
+}
+img[alt="Norman"]{
+  width: 90%;
+  margin: 10px auto;
+}
+
+.jumbotron{
+  background-color: white;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+figcaption{
+  max-width: 80%;
+}
+
+.footer-top{
+background-color: rgb(61, 72, 72);
+color: white;
+left: 0;
+width: 100%;
+height: auto;
+}
+.row hr{
+border: 5px solid green;
+}
+
+h5{
+ text-transform: uppercase;
+}
+
+.list-unstyled li{
+  text-decoration: none;
+
+}
+
+.segment{
+padding: 20px 60px;
+}
+
+.box{
+max-width: 45%;
+margin: 10px auto;
+
+}
+
+.box ul li{
+  font-size: 1.25rem;
+  list-style-type: circle bolder;
+  text-align: left;
+  margin: 30px 0px;
+}
+
+.blockquote-footer{
+  font-size: 1.2rem;
+}
+
+
+
+@media (max-width:767px) {
+  nav ul li a{
+    text-align: center;
+  }
+  div.dropdown-menu{
+  width:100%;
+  margin-left: 0px;
+  border-top: 1px solid black;
+  }
+  figcaption p{
+    font-size: 18px;
+  }
+  .segment{
+  padding: 20px 20px;
+  }
+  .list-unstyled li,h5,.p-1{
+  text-align: center;
+  }
+
+
+}
